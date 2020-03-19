@@ -33,3 +33,4 @@ Status: Assigned
 Assigned to Jeremy Hall
 Points: 1
 Task 011: Include a .txt file within the game's files called "README" that explains the controls of the game. (1 pt.)
+  * Note: This file will be included in both the 2D folder in the engine, and in this repository for ease of access.
