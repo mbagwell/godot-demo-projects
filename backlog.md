@@ -28,7 +28,7 @@ User Story D
 Status: Assigned
 Assigned to Reid Wynkoop
 Points: 5
-Task 008: Implement a life counter that indicates how many lives the player currently has. (5 pts.)
+$$$ Task 008: Implement a coin and life counter that indicates how many coins and lives the player currently has. (5 pts.)
 Task 009: Cause the user's life counter to go down by 1 should the player die (2 pts.)
 Task 010: Implement a "game over" screen when the number of lives hits 0. (2 pts.)
 
