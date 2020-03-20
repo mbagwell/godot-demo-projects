@@ -1,3 +1,6 @@
+NOTE: $$$ above a task means that the task has been completed; this is just a way to emphasize that.
+
+$$$
 User Story A
 Status: Completed
 Assigned to William Wood
@@ -14,6 +17,7 @@ Task 004: Edit the current level background provided with the game such that at 
 Task 005: Design and implement three different levels to be implemented after the first (default level). (8 pts.)
 Task 006: Implement level transitions such that the player plays the levels sequentially (L1 -> L2 -> L3) (1 pt.)
 
+$$$
 User Story C
 Status: Completed
 Assigned to Mathew Bagwell
