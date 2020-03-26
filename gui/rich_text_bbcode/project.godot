@@ -15,8 +15,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Rich Text Label with BBCode"
-config/description="A demo showcasing the support for rich text and BBCode via RichTextLabel."
+config/name="Rich Text Label (BBCode)"
 run/main_scene="res://rich_text_bbcode.tscn"
 config/icon="res://icon.png"
 
@@ -35,5 +34,4 @@ multithread/thread_rid_pool_prealloc=60
 
 [rendering]
 
-quality/driver/driver_name="GLES2"
 environment/default_clear_color=Color( 0.145098, 0.145098, 0.164706, 1 )

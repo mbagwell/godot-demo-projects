@@ -16,8 +16,6 @@ _global_script_class_icons={
 [application]
 
 config/name="Scene Instancing Demo"
-config/description="A demo showing how to use scene instancing to
-make many duplicates of the same object."
 run/main_scene="res://scene_instancing.tscn"
 config/icon="res://icon.png"
 
@@ -37,5 +35,4 @@ singletons=[  ]
 
 [rendering]
 
-quality/driver/driver_name="GLES2"
 environment/default_clear_color=Color( 0.301961, 0.301961, 0.301961, 1 )

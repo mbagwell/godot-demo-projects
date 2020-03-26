@@ -1,4 +1,4 @@
-# 3D Viewport Scaling
+# 3D scaling
 
 This demo shows how to scale the 3D viewport rendering without affecting
 2D elements such as the HUD. It also demonstrates how to toggle filtering
@@ -9,13 +9,3 @@ the main game area and a non-pixel-art viewport for HUD elements.
 
 ViewportContainer can also be used to display a viewport in a GUI, but it
 doesn't offer the ability to enable filtering.
-
-Language: GDScript
-
-Renderer: GLES 2
-
-## Screenshots
-
-![Screenshot](screenshots/high.png)
-
-![Screenshot](screenshots/low.png)

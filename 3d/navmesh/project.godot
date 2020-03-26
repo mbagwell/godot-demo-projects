@@ -15,11 +15,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="3D Navigation Mesh"
-config/description="Navigation mesh demo for 3D scenes, with a character
-able to pathfind around a complex 3D environment.
-The navigation path is drawn using a line.
-Code is provided for polyline following in 3D."
+config/name="Navmesh Demo"
 run/main_scene="res://navmesh.tscn"
 config/icon="res://icon.png"
 

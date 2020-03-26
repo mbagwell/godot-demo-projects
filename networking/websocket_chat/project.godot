@@ -15,7 +15,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="WebSocket Chat Demo"
+config/name="Websocket Chat Demo"
 run/main_scene="res://combo/combo.tscn"
 config/icon="res://icon.png"
 
@@ -26,7 +26,3 @@ Utils="*res://utils.gd"
 [gdnative]
 
 singletons=[  ]
-
-[rendering]
-
-quality/driver/driver_name="GLES2"

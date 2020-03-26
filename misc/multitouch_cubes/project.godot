@@ -15,7 +15,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Interactive Cubes"
+config/name="InteractiveCubes"
 run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
 
@@ -25,6 +25,5 @@ singletons=[  ]
 
 [rendering]
 
-quality/driver/driver_name="GLES2"
 environment/default_clear_color=Color( 0.113725, 0.133333, 0.196078, 1 )
 environment/default_environment="res://default_env.tres"

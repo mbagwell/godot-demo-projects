@@ -16,8 +16,6 @@ _global_script_class_icons={
 [application]
 
 config/name="Pong with VisualScript"
-config/description="A simple Pong game. This demo shows best practices
-for game development in Godot, including signals."
 run/main_scene="pong.tscn"
 config/icon="res://icon.png"
 
@@ -68,6 +66,5 @@ right_move_up={
 
 [rendering]
 
-quality/driver/driver_name="GLES2"
 quality/2d/use_pixel_snap=true
 viewport/default_clear_color=Color( 0, 0, 0, 1 )

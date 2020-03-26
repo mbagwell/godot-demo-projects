@@ -16,7 +16,6 @@ _global_script_class_icons={
 [application]
 
 config/name="Loading in a Thread"
-config/description="An example using a thread to load an image."
 run/main_scene="res://thread.tscn"
 
 [display]
@@ -31,7 +30,3 @@ singletons=[  ]
 [memory]
 
 multithread/thread_rid_pool_prealloc=60
-
-[rendering]
-
-quality/driver/driver_name="GLES2"

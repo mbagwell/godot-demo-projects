@@ -16,7 +16,6 @@ _global_script_class_icons={
 [application]
 
 config/name="Autoload (Singletons)"
-config/description="This demo shows how to use autoloads to change between scenes."
 run/main_scene="res://scene_a.tscn"
 
 [autoload]
@@ -35,7 +34,3 @@ singletons=[  ]
 [memory]
 
 multithread/thread_rid_pool_prealloc=60
-
-[rendering]
-
-quality/driver/driver_name="GLES2"

@@ -20,13 +20,15 @@ func _unhandled_input(event):
 				var ptr_id = _os2own[event.index]
 				state.erase(ptr_id)
 				_os2own.erase(event.index)
-		get_tree().set_input_as_handled()
+		return true
 		
 	elif event is InputEventScreenDrag: # Movement.
 		if _os2own.has(event.index): # Defensively discard index if not known.
 			var ptr_id = _os2own[event.index]
 			state[ptr_id] = event.position
-		get_tree().set_input_as_handled()
+		return true
+	
+	return false
 
 
 func _find_free_pointer_id():

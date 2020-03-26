@@ -16,7 +16,6 @@ _global_script_class_icons={
 [application]
 
 config/name="Audio Device Changer Demo"
-config/description="This is a demo showing how the audio output device can be changed from Godot."
 run/main_scene="res://Changer.tscn"
 config/icon="res://icon.png"
 
@@ -99,5 +98,4 @@ ui_end={
 
 [rendering]
 
-quality/driver/driver_name="GLES2"
 environment/default_environment="res://default_env.tres"

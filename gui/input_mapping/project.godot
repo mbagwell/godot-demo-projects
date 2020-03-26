@@ -16,11 +16,6 @@ _global_script_class_icons={
 [application]
 
 config/name="Input Mapping GUI"
-config/description="A demo showing how to build an input key remapping screen.
-
-- Click the buttons to change the bound keys.
-- Persists the keys to disk, so they are preserved
-  after the project is restarted."
 run/main_scene="res://InputRemapMenu.tscn"
 config/icon="res://icon.png"
 
@@ -62,7 +57,3 @@ dash={
 "events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777237,"unicode":0,"echo":false,"script":null)
  ]
 }
-
-[rendering]
-
-quality/driver/driver_name="GLES2"
