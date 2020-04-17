@@ -29,6 +29,13 @@ onready var gun = $Sprite/Gun
 #   (Ctrl Alt F) to quickly jump to the corresponding function.
 # - If you split the character into a state machine or more advanced pattern,
 #   you can easily move individual functions.
+var TIMER = null
+var delay = 0.25
+var can_shoot = true
+
+func on_timeout_complete():
+	can_shoot = true
+
 func _physics_process(_delta):
 	var direction = get_direction()
 
@@ -51,9 +58,16 @@ func _physics_process(_delta):
 	# bullets forward.
 	# There are many situations like these where you can reuse existing properties instead of
 	# creating new variables.
+	TIMER = Timer.new()
+	TIMER.set_one_shot(true)
+	TIMER.set_wait_time(delay)
+	TIMER.connect("timeout",self,"on_timeout_complete")
+	add_child(TIMER)
 	var is_shooting = false
-	if Input.is_action_just_pressed("shoot"):
+	if (Input.get_action_strength("shoot") && can_shoot):
 		is_shooting = gun.shoot(sprite.scale.x)
+		can_shoot = false
+		TIMER.start()
 	if Input.get_action_strength("ui_hover"):
 		_velocity.y =- 5
 	var animation = get_new_animation(is_shooting)
