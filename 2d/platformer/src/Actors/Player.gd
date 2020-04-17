@@ -55,7 +55,7 @@ func _physics_process(_delta):
 	if Input.is_action_just_pressed("shoot"):
 		is_shooting = gun.shoot(sprite.scale.x)
 	if Input.get_action_strength("ui_hover"):
-		_velocity.y =- 98
+		_velocity.y =- 5
 	var animation = get_new_animation(is_shooting)
 	if animation != animation_player.current_animation and shoot_timer.is_stopped():
 		if is_shooting:
