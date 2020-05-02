@@ -1,13 +1,8 @@
 extends ParallaxLayer
 
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-onready var sprite = $Sprite
-
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	# This file continuously fades and unfades the sky over time
 	var INTEGER = 1
 	var N = 1;
 	while(INTEGER !=0):
@@ -22,7 +17,6 @@ func _ready():
 			yield(get_tree().create_timer(5.0), "timeout")
 			N = N / 0.9
 			modulate = Color(N,N,N)
-		 # Replace with function body.
 		
 		
 
